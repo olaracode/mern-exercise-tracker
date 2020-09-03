@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+// English
 
-## Available Scripts
+This is a basic CRUD project with the intention of practicing the MERN Stack.
 
-In the project directory, you can run:
+The backend is comprehended inside the backend folder, which is inside the whole project folder.
+Inside said folder you will find the models, routes and the server connection, using MongoAtlas instead of the mongo CLI, and at the same time using mongoose to make the link between the backend to the database.
 
-### `npm start`
+The front end is quite simple, Bootstrap is used to model the component. In the future i might refactor it to use MaterialUI or perhaps Reacstrap. Axios was used to perform the API calls.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Nodemon was used to have the server side localhost running and refreshin on save.
+Basic npm start was used to have the client side server up and running.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+// Español
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este es un proyecto básico para practicar un CRUD utilizando el stack MERN.
 
-### `npm run build`
+El backend se desarrolló dentro de la carpeta que lleva el mismo nombre. Dentro de dicha carpeta se encuentran los modelos, rutas y la conección al servidor. Se vinculó la base de datos con el proyecto utilizando mongoose.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El frontend es bastante sencillo, estilizado con bootstrap. En el futuro se planea modificar la interfaz grafica utilizando MaterialUI o reacstrap. Axios fue la herramienta utilizada para hacer el contacto entre frontend y backend.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Nodemon Se utilizó nodemon para tener un servidor local para el backend.
+Para el servidor del front end se utilizó npm start como es costumbre con React.
